@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="tbl" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tbl">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Empresa" type="xs:string" minOccurs="0" />
+                <xs:element name="Morada" type="xs:string" minOccurs="0" />
+                <xs:element name="NIF" type="xs:string" minOccurs="0" />
+                <xs:element name="Telefone" type="xs:string" minOccurs="0" />
+                <xs:element name="Factura" type="xs:string" minOccurs="0" />
+                <xs:element name="Data" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Chave" type="xs:string" minOccurs="0" />
+                <xs:element name="Validade" type="xs:string" minOccurs="0" />
+                <xs:element name="Quantidade" type="xs:int" minOccurs="0" />
+                <xs:element name="Produto" type="xs:string" minOccurs="0" />
+                <xs:element name="Preco_Unitario" type="xs:float" minOccurs="0" />
+                <xs:element name="IVA" type="xs:int" minOccurs="0" />
+                <xs:element name="Total" type="xs:float" minOccurs="0" />
+                <xs:element name="Funcionario" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tbl>
+    <ID>1</ID>
+    <Empresa>JS.MAURICIO</Empresa>
+    <Morada>Bairro do Lucrecia</Morada>
+    <NIF>2171072415</NIF>
+    <Telefone>923359596-938838545</Telefone>
+    <Factura>Fat-1</Factura>
+    <Data>2019-09-30T00:00:00+01:00</Data>
+    <Chave>AXM19JYPLNBIHK</Chave>
+    <Validade>Processado por programa validado n.1.1/AGT19</Validade>
+    <Quantidade>2</Quantidade>
+    <Produto>Produto exemplo 1 sem iva</Produto>
+    <Preco_Unitario>50.1</Preco_Unitario>
+    <IVA>0</IVA>
+    <Total>100.2</Total>
+    <Funcionario>Operador1</Funcionario>
+  </tbl>
+</NewDataSet>
